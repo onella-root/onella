@@ -28,10 +28,9 @@ export function Features() {
     <>
       <Title as="h2">Features</Title>
       <Lead>
-        Crafted for <strong>highly scalable</strong>,{' '}
-        <strong>easily maintainable</strong> and{' '}
-        <strong>highly performant</strong> React.js applications with a focus on{' '}
-        <strong>best DX</strong> and <strong>best practices</strong>.
+        We bring the marketplace that helps<strong>list your home</strong>,{' '}
+        <strong>connect buyers and sellers</strong> and{' '}
+        <strong></strong> makes transaction easy.
       </Lead>
       <List>
         <Feature>
