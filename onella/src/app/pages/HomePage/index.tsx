@@ -12,13 +12,14 @@ export function HomePage() {
         <title>Home Page</title>
         <meta
           name="description"
-          content="Onella"
+          content="Hello Onella"
         />
       </Helmet>
       <NavBar />
       <PageWrapper>
         <Masthead />
         <Features />
+        <span>Welcome to Onella!</span>
       </PageWrapper>
     </>
   );

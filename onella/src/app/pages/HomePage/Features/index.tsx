@@ -37,121 +37,40 @@ export function Features() {
         <Feature>
           <StateIcon className="feature-icon" />
           <Content>
-            <SubTitle>Predictable State</SubTitle>
+            <SubTitle>Explore Top Marketplaces</SubTitle>
             <P>
-              Build easy to test and debug, flexible and extensible applications
-              using{' '}
-              <A
-                href="https://redux.js.org/basics/usage-with-react"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Redux
-              </A>
-              . Unidirectional data flow allows for change logging and time
-              travel debugging.{' '}
-              <A
-                href="https://github.com/zalmoxisus/redux-devtools-extension"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Install Chrome Redux Dev Tools
-              </A>{' '}
-              to see how your application's state changes and travel in time to
-              debug. Type any github username below and see it in action with
-              Redux Dev Tools.
+              Explore Top Marketplaces
             </P>
-            <GithubRepoForm />
-          </Content>
-        </Feature>
-        <Feature>
-          <CSSIcon className="feature-icon" />
-          <Content>
-            <SubTitle>Next Generation CSS</SubTitle>
             <P>
-              Write composable CSS that’s co-located with your components for
-              complete modularity. Ship only the styles that are on the page for
-              the best performance. Generate application-wide styles and themes
-              for your components. Change the theme below to see how easy and
-              intuitive theming can ever be!
+              Listings Carousel
             </P>
-            <ThemeSwitch />
+            {/* <GithubRepoForm /> */}
           </Content>
         </Feature>
         <Feature>
-          <INTLIcon className="feature-icon" />
+          <StateIcon className="feature-icon" />
           <Content>
-            <SubTitle>{t(messages.i18nTitle())} </SubTitle>
+            <SubTitle>View Listings For Sale</SubTitle>
             <P>
-              {t(messages.i18nDescription())}
-              <br />
-              <small>
-                (Only some of the features below are translated to demonstrate
-                an example)
-              </small>
+              View Listings For Sale
             </P>
-            <LanguageSwitch />
-          </Content>
-        </Feature>
-        <Feature>
-          <RouteIcon className="feature-icon" />
-          <Content>
-            <SubTitle>{t(...messages.routingTitle())}</SubTitle>
             <P>
-              {t(messages.routingDescription())}
-              <br />
-              <small>
-                Go to our{' '}
-                <Link to={process.env.PUBLIC_URL + '/notfound'}>/NotFound</Link>{' '}
-                page to see how routing works
-              </small>
+              Listings For Sale Carousel
             </P>
+            {/* <GithubRepoForm /> */}
           </Content>
         </Feature>
         <Feature>
-          <InstantFeedbackIcon className="feature-icon" />
+          <StateIcon className="feature-icon" />
           <Content>
-            <SubTitle>{t(messages.feedbackTitle())}</SubTitle>
-            <P>{t(messages.feedbackDescription())}</P>
-          </Content>
-        </Feature>
-        <Feature>
-          <ScaffoldingIcon className="feature-icon" />
-          <Content>
-            <SubTitle>{t(messages.scaffoldingTitle())}</SubTitle>
-            <P>{t(messages.scaffoldingDescription())}</P>
-          </Content>
-        </Feature>
-        <Feature>
-          <SEOIcon className="feature-icon" />
-          <Content>
-            <SubTitle>SEO</SubTitle>
+            <SubTitle>List Your Homes</SubTitle>
             <P>
-              Supports SEO (document head tags management) for search engines
-              that support indexing of JavaScript content.
+              List Your Homes
             </P>
-          </Content>
-        </Feature>
-        <Feature>
-          <TSLogo className="feature-icon" />
-          <Content>
-            <SubTitle>TypeScript</SubTitle>
             <P>
-              Typescript is the key to scalability. Build self-documented code,
-              easy-to-debug code and create maintainable large applications and
-              codebases with a highly productive development experience.
+              List Your Homes
             </P>
-          </Content>
-        </Feature>
-        <Feature>
-          <CodeAnalysisIcon className="feature-icon" />
-          <Content>
-            <SubTitle>Static Code Analysis</SubTitle>
-            <P>
-              Focus on writing new features without worrying about formatting or
-              code quality. With the right editor setup, your code will
-              automatically be formatted and linted as you work.
-            </P>
+            {/* <GithubRepoForm /> */}
           </Content>
         </Feature>
       </List>

@@ -9,25 +9,25 @@ export function Masthead() {
   return (
     <Wrapper>
       <Logos />
-      <Title>React Boilerplate meets CRA</Title>
+      <Title>Welcome to Onella</Title>
       <Lead>
-        Now you can use the{' '}
+        The true organic marketplace, where {' '}
         <A
           href="https://www.reactboilerplate.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          React Boilerplate
+          Buyers
         </A>{' '}
-        as a{' '}
+        and{' '}
         <A
           href="https://github.com/facebook/create-react-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Create React App
+          Sellers
         </A>{' '}
-        template.
+        come together.
       </Lead>
     </Wrapper>
   );
